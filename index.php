@@ -39,7 +39,6 @@ for distribution to interested and relevant audiences.
 <br>
 <h2> I can also connect tables to SQL databases </h2>
 <p> This uses PHP </p>
-<script>
 <?php
 
 $con = mysqli_connect("127.0.0.1",'root','TESTPASSWORD1','dataschema1');
@@ -68,6 +67,5 @@ while($row = mysqli_fetch_array($result)) {
 echo "</table>";
 mysqli_close($con);
 ?>
-</script>
 </body>
 </html>
