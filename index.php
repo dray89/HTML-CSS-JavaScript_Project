@@ -41,7 +41,7 @@ for distribution to interested and relevant audiences.
 <p> This uses PHP </p>
 <?php
 
-$con = mysqli_connect("127.0.0.1",'root','TESTPASSWORD1','dataschema1');
+$con = mysqli_connect("localhost",'root','TESTPASSWORD1','dataschema1');
 if (!$con) {
   echo "Error: Unable to connect to MySQL." . PHP_EOL;
   echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
