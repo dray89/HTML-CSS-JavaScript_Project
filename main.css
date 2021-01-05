@@ -1,0 +1,11 @@
+h1, h2 {
+    color:blue;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#t01 {
+  background-color: #f1f1c1;
+}
